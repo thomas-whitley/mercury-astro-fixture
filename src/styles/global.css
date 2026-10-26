@@ -1,0 +1,28 @@
+body {
+  margin: 0;
+  font-family: system-ui, sans-serif;
+  color: #1d2a33;
+}
+
+.site-header {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  padding: 1rem 1.5rem;
+  background: #e8f1f5;
+}
+
+.header-phone {
+  margin-left: auto;
+  font-weight: 700;
+}
+
+main {
+  padding: 1.5rem;
+}
+
+@media (max-width: 640px) {
+  .site-header {
+    flex-wrap: wrap;
+  }
+}

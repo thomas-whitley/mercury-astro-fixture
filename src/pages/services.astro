@@ -1,0 +1,9 @@
+---
+import Layout from "../layouts/Layout.astro";
+import ServiceList from "../components/ServiceList.astro";
+import { site } from "../site.config";
+---
+<Layout title={`Services | ${site.name}`}>
+  <h1>Services</h1>
+  <ServiceList />
+</Layout>

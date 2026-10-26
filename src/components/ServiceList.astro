@@ -1,0 +1,11 @@
+---
+import { services } from "../data/services";
+---
+<ul class="services">
+  {services.map((service) => (
+    <li>
+      <h2>{service.title}</h2>
+      <p>{service.blurb}</p>
+    </li>
+  ))}
+</ul>

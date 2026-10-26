@@ -1,0 +1,10 @@
+---
+import Layout from "../layouts/Layout.astro";
+import { site } from "../site.config";
+---
+<Layout title={site.name}>
+  <section class="hero">
+    <h1>Plumbing for Wattle Flat&rsquo;s older homes</h1>
+    <p class="lede">Licensed plumber, PIC 98765. Call <a href={`tel:${site.phone}`}>{site.phoneDisplay}</a> for a fixed price quote.</p>
+  </section>
+</Layout>

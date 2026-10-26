@@ -1,0 +1,9 @@
+---
+import Layout from "../layouts/Layout.astro";
+import { site } from "../site.config";
+---
+<Layout title={`Contact | ${site.name}`}>
+  <h1>Contact</h1>
+  <p>Call <a href={`tel:${site.phone}`}>{site.phoneDisplay}</a> or email <a href={`mailto:${site.email}`}>{site.email}</a>.</p>
+  <p>We work across {site.suburb} and the suburbs around it.</p>
+</Layout>
